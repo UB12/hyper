@@ -5,7 +5,7 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = "" -- توکن  رباتتون --
+local bot_api_key = "310006574:AAEMWedI8VPApPkRyFRqEBuWj4O1g2tryd4" -- توکن  رباتتون --
 local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
@@ -29,7 +29,7 @@ _فقط یک استیکر ارسال کنید_
 📝 تبدیل عکس به استیکر
 _فقط یک عکس ارسال کنید_
 
-👤 پشتیبانی : @Navid_Quick_For_Ever
+👤 پشتیبانی : @o_o_nline_o_o
 ]] 
 
 -------
@@ -38,7 +38,7 @@ _فقط یک عکس ارسال کنید_
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {232006008}-- ایدی خودتون رو قرار بدید --
+  local admins = {311680976}-- ایدی خودتون رو قرار بدید --
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
