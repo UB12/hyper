@@ -6,7 +6,7 @@ JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
 local bot_api_key = "310006574:AAEMWedI8VPApPkRyFRqEBuWj4O1g2tryd4" -- توکن  رباتتون --
-local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
+local BASE_URL = "https://api.telegram.org/bot310006574:AAEMWedI8VPApPkRyFRqEBuWj4O1g2tryd4sendmessage?chat_id=123&text=salam"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
 📝لیست دستورات ربات هایپر📝
